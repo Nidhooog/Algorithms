@@ -1,0 +1,17 @@
+package:
+  name: myalgorithm
+  version: "0.1"
+
+build:
+  number: 3
+
+requirements:
+  run:
+    - python
+
+test:
+  imports:
+    - myalgorithm
+
+about:
+  summary: This is a simple meta-package
